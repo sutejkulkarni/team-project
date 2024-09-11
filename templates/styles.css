@@ -1,0 +1,76 @@
+.box{
+    background-color: #08558D;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+.google-btn{
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+  border-style: none;
+}
+
+.google-icon{
+  width: 23px;
+  margin-right: 20px;
+}
+
+.google-btn:hover{
+  background-color: #FFF5D9;
+}
+
+.line{
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.line span{
+  padding: 8px;
+  background-color: #08558D;
+  color: white;
+}
+
+.line:after{
+  content: "";
+  position: absolute;
+  border: 1px solid white;
+  width: 46%;
+  top: 59%;
+  right: 0;
+}
+
+.line:before{
+  content: "";
+  position: absolute;
+  border: 1px solid white;
+  width: 46%;
+  top: 59%;
+  left: 0;
+}
+
+.Apple-btn{
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    transition: background-color 0.3s ease;
+}
+
+.Apple-btn:hover{
+    background-color: #FFF5D9;
+}
+
+.Apple-icon{
+    width: 25px;
+    margin-right: 20px;
+}
